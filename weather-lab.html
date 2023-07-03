@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <form class="inputForm">
+        <input type="text"  value="" placeholder="Enter a city name"  id="inputBar">
+        <input type="submit"  value="Request Weather" id="inputButton">
+    </form>
+
+    <h1 id="cityName"> </h1>
+    <h2 id="temp"> </h2>
+    <div class="condishes">
+        <div id="condishIcon"></div>
+        <p id="condish"></p>
+    </div>
+
+</body>
+</html>

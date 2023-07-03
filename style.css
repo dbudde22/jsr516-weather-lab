@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 242, 221);
+    font-family: 'Montserrat-Light', Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.condishes {
+    display: flex;
+}
+
+.night {
+    background-color: rgb(190, 180, 207);
+    /* color: white; */
+}
+
+p {
+    font-weight: 800;
+    line-height: 2rem;
+}
